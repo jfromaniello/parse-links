@@ -1,5 +1,7 @@
 Parse a [Links header](http://www.w3.org/Protocols/9707-link-header.html) into a javascript object.
 
+__I'll no longer maintain this repository. [li](https://github.com/jfromaniello/li) is a fork from this repository and allows parse and stringify.__
+
 ## Install
 
     npm install parse-links
