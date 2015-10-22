@@ -3,7 +3,8 @@ var fixture = '</api/users?page=0&per_page=2>; rel="first", ' +
               '</api/users?page=1&per_page=2>; rel="next", ' +
               '</api/users?page=3&per_page=2>; rel="last", ' +
               '</api/users/123>;rel=self, ' +
-              '</api/users/12345>;rel="related alternate"';
+              '</api/users/12345>;rel="related alternate",' +
+              '</api/users/12345?q=smith&fields=fname,lname>; rel="search"';
 
 describe('parse-links', function () {
   it('parse the links!', function () {
